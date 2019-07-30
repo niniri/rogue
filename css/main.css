@@ -1,0 +1,159 @@
+@font-face {
+  font-family: Wisdom;
+  src: url('../fonts/WisdomScript-Regular.otf') format('opentype');
+}
+
+/***** BASE STYLES *****/
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/***** GRID *****/
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 398px;
+  height: 210px;
+  float: left;
+}
+
+.parent-div {
+  overflow: auto;
+}
+
+/***** HEADER *****/
+header {
+  height: 110px;
+}
+
+header h1 {
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+header h1 span {
+  color: #77a466;
+}
+
+nav {
+  float: right;
+  padding-top: 15px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  color: #77a466;
+  margin-left: 20px;
+}
+
+/***** ABOUT *****/
+#about h2 {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #77a466;
+}
+
+#about p {
+  font-size: 16px;
+  line-height: 25px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+}
+
+/***** MENU *****/
+#menu {
+  border-top: 1px solid #828282;
+  border-right: 1px solid #828282;
+  border-bottom: 1px solid #828282;
+  padding-top: 20px;
+}
+
+#menu h3 {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#menu ul li {
+  font-size: 16px;
+  color: #77a466;
+}
+
+/***** REVIEWS *****/
+#reviews {
+  border-top: 1px solid #828282;
+  border-right: 1px solid #828282;
+  border-bottom: 1px solid #828282;
+  padding-top: 20px;
+}
+
+#reviews h3 {
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+#reviews p {
+  font-size: 16px;
+  line-height: 21px;
+  margin-left: 30px;
+  margin-right: 40px;
+}
+
+/***** CONTACT *****/
+#contact {
+  height: 210px;
+  border-top: 1px solid #828282;
+  border-bottom: 1px solid #828282;
+  padding-top: 20px;
+}
+
+#contact h3 {
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+#contact p {
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 30px;
+}
+
+/***** FOOTER *****/
+footer {
+  text-align: center;
+}
+
+footer h4 {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+footer span {
+  font-family: Wisdom;
+  text-transform: lowercase;
+  color: #77a466;
+}
